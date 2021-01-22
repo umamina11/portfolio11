@@ -3057,6 +3057,11 @@ input, select, textarea {
 			position: relative;
 			z-index: 1;
 		}
+		
+
+
+
+
 
 			#header .inner .actions {
 				-moz-transition: -moz-transform 1.25s ease;
@@ -3597,7 +3602,7 @@ input, select, textarea {
 	  font-size: 20px;
 	  letter-spacing: 2px;
 	  font-weight: 600;
-	  padding:25px;
+	  padding:50px;
 	  transition:all ease 0.5s;
 
   }
@@ -3818,3 +3823,22 @@ input, select, textarea {
 	background-color: #3e8e41;
   }
 */
+ .background{
+	height:auto
+}
+.footer{
+	height:100vh;
+}
+
+
+
+#footer .video{
+	position:absolute;
+	right:0;
+	bottom:0;
+	min-width: 100%;
+	min-width: 100%;
+	width:auto;
+	height:auto;
+	z-index:-1;
+}
